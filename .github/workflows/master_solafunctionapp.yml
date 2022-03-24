@@ -39,4 +39,4 @@ jobs:
           app-name: 'solaFunctionApp'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B9A9C85B4A994B9483C23DF32423EEEC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4A37CE60A52440D6AFA257EDCA8EF297 }}
